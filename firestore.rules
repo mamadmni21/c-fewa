@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    match /users/{userId} {
+      allow read, write: if isSignedIn();
+    }
+
+    match /alerts/{alertId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    match /inventory_stocks/{stockId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    match /nutrition_logs/{logId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    match /community_actions/{actionId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+
+    match /weather_data/{dataId} {
+      allow read: if true;
+      allow write: if isSignedIn();
+    }
+  }
+}
