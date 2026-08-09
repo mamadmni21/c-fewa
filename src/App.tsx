@@ -47,6 +47,11 @@ export default function App() {
   const [isAuthOpen, setIsAuthOpen] = useState(false);
   const [isSynced, setIsSynced] = useState(true);
 
+  // Enforce document title
+  useEffect(() => {
+    document.title = "C-FEWA by SEPUH";
+  }, []);
+
   // Firestore Realtime Collections State
   const [alerts, setAlerts] = useState<DisasterAlert[]>([]);
   const [weatherList, setWeatherList] = useState<WeatherData[]>([]);
