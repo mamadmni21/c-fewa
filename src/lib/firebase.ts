@@ -10,19 +10,18 @@ import {
   User
 } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
-import firebaseConfigJson from '../../firebase-applet-config.json';
-
 // Fallback key assembled dynamically to prevent static scanner false positives on GitHub
 const defaultApiKey = ['AIzaSy', 'AhKB16PZQu4', 'RogEP1GBR0_', '4OoLivpTZ1I'].join('');
 
+// Read config from environment or default fallbacks safely
 const firebaseConfig = {
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || firebaseConfigJson.projectId || "c-fewa",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || firebaseConfigJson.appId || "1:845567102942:web:be93cbeb10c4ea17e4d74f",
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || (firebaseConfigJson.apiKey && firebaseConfigJson.apiKey !== "YOUR_FIREBASE_API_KEY" ? firebaseConfigJson.apiKey : defaultApiKey),
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || firebaseConfigJson.authDomain || "c-fewa.firebaseapp.com",
-  firestoreDatabaseId: import.meta.env.VITE_FIREBASE_DATABASE_ID || firebaseConfigJson.firestoreDatabaseId || "ai-studio-cfewaclimatefood-e844cbde-3648-4b65-b2f1-4173749f5e2c",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || firebaseConfigJson.storageBucket || "c-fewa.firebasestorage.app",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || firebaseConfigJson.messagingSenderId || "845567102942",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "c-fewa",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:845567102942:web:be93cbeb10c4ea17e4d74f",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || defaultApiKey,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "c-fewa.firebaseapp.com",
+  firestoreDatabaseId: import.meta.env.VITE_FIREBASE_DATABASE_ID || "ai-studio-cfewaclimatefood-e844cbde-3648-4b65-b2f1-4173749f5e2c",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "c-fewa.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "845567102942",
 };
 
 // Initialize Firebase App
