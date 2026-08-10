@@ -41,7 +41,7 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </div>
             <p className="text-[11px] text-slate-500 font-medium hidden md:block">
-              Climate-Food Early Warning & Action • <span className="text-slate-700 font-semibold">PT. Sepuh Trismatek Nusa</span>
+              Climate-Food Early Warning & Action • <span className="text-slate-700 font-semibold">PT. Sepuh Trismatek Nusa</span> <span className="text-indigo-600 font-normal">(Fellas Indonesia's Partner)</span>
             </p>
           </div>
         </div>

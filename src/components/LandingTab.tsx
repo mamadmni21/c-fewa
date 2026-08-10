@@ -51,7 +51,7 @@ export const LandingTab: React.FC<LandingTabProps> = ({
         <div className="relative z-10 max-w-4xl space-y-6">
           <div className="inline-flex items-center space-x-2.5 px-3.5 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-bold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-indigo-400" />
-            <span>UNICEF Venture Fund Applicant • PT. Sepuh Trismatek Nusa</span>
+            <span>UNICEF Venture Fund Applicant • PT. Sepuh Trismatek Nusa (Fellas Indonesia Partner Contractor)</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">

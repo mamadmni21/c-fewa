@@ -14,7 +14,7 @@
 
 **C-FEWA (Child-Focused Climate Food Early Warning & Anticipatory Action)** is an open-source, AI-driven, multi-hazard early warning and decision-support platform designed specifically to safeguard **children’s food security and nutritional health** from climate shocks.
 
-Developed by **PT. Sepuh Trismatek Nusa (SEPUH)**, C-FEWA bridges the critical gap between raw meteorological climate forecasts and actionable, child-centric humanitarian interventions. By integrating climate anomaly tracking, supply chain logistics, localized child vulnerability metrics (SAM/MAM risk), and automated anticipatory action triggers, C-FEWA empowers disaster risk management agencies, UNICEF field offices, and local governments to deploy cash transfers, emergency food stocks, and micronutrient supplements **weeks before acute food shortages occur**.
+Developed by **PT. Sepuh Trismatek Nusa (SEPUH)** (Fellas Indonesia's partner acting as individual contractor that created this app), C-FEWA bridges the critical gap between raw meteorological climate forecasts and actionable, child-centric humanitarian interventions. By integrating climate anomaly tracking, supply chain logistics, localized child vulnerability metrics (SAM/MAM risk), and automated anticipatory action triggers, C-FEWA empowers disaster risk management agencies, UNICEF field offices, and local governments to deploy cash transfers, emergency food stocks, and micronutrient supplements **weeks before acute food shortages occur**.
 
 ---
 
@@ -181,6 +181,7 @@ PT. Sepuh Trismatek Nusa is fully committed to releasing and maintaining C-FEWA 
 ## 👥 Organization & Contact
 
 **PT. Sepuh Trismatek Nusa (SEPUH)**  
+- **Role**: Fellas Indonesia's partner as individual contractor that created this app  
 - **Focus**: Climate Technology, Humanitarian Data Intelligence & Public Health Engineering  
 - **Lead Contact**: Mamad Ismanto (`mamad.ismanto@gmail.com`)  
 - **Repository**: [https://github.com/mamadismanto/c-fewa-sepuh](https://github.com/mamadismanto/c-fewa-sepuh)  

@@ -36,8 +36,8 @@ export const Footer: React.FC<FooterProps> = ({ isSynced }) => {
         {/* Partners Row */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-[11px] text-slate-500 pt-2">
           <div>
-            <strong className="text-slate-800 block mb-1">Lead Developer:</strong>
-            PT. Sepuh Trismatek Nusa (e-Farmania)
+            <strong className="text-slate-800 block mb-1">Lead Contractor & Developer:</strong>
+            PT. Sepuh Trismatek Nusa (Fellas Indonesia's Partner / Individual Contractor)
           </div>
           <div>
             <strong className="text-slate-800 block mb-1">Community Delivery:</strong>
@@ -56,7 +56,7 @@ export const Footer: React.FC<FooterProps> = ({ isSynced }) => {
         {/* Copyright Notice */}
         <div className="pt-4 border-t border-slate-100 text-center text-[10px] uppercase tracking-wider text-slate-400 font-medium flex flex-col sm:flex-row items-center justify-between gap-2">
           <p>
-            © {new Date().getFullYear()} <strong className="text-slate-700">PT. Sepuh Trismatek Nusa</strong>. All rights reserved.
+            © {new Date().getFullYear()} <strong className="text-slate-700">PT. Sepuh Trismatek Nusa</strong> (Fellas Indonesia's Partner). All rights reserved.
           </p>
           <div className="flex items-center gap-3">
             <span className="font-mono text-indigo-600">v2.0-bento</span>
