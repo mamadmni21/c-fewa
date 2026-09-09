@@ -181,7 +181,7 @@ Fellas Indonesia is fully committed to releasing and maintaining C-FEWA as an Op
 **Fellas Indonesia**  
 - **Role**: System POC & Collaborate with the main Developer PT Sepuh Trismatek Nusa
 - **Focus**: Climate Technology, Humanitarian Data Intelligence & Public Health Engineering  
-- **Lead Contact**: Rini Mayasari (`rinimayasari@fellas.id`)  
+- **Lead Contact**: Rini Mayasari (`rini.mayasari2202@gmail.com`)  
 - **Repository**: [https://github.com/mamadmni21/c-fewa](https://github.com/mamadmni21/c-fewa)  
 
 ---
