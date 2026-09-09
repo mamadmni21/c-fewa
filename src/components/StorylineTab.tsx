@@ -21,7 +21,7 @@ export const StorylineTab: React.FC = () => {
         </p>
 
         <div className="pt-3 flex flex-wrap items-center gap-4 text-xs font-semibold text-slate-500 border-t border-slate-100">
-          <span>Lead Applicant: <strong className="text-emerald-700 font-bold">PT. Sepuh Trismatek Nusa</strong></span>
+          <span>Lead Applicant: <strong className="text-emerald-700 font-bold">Fellas Indonesia</strong></span>
           <span>Requested Funding: <strong className="text-slate-900 font-bold">USD 99,650</strong></span>
           <span>Repository ID: <strong className="text-slate-700 font-mono">c-fewa</strong></span>
         </div>
@@ -37,26 +37,26 @@ export const StorylineTab: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           
           <div className="bg-slate-50 p-4 rounded-xl border border-emerald-200 space-y-2">
-            <div className="text-xs font-extrabold text-emerald-800">PT. Sepuh Trismatek Nusa</div>
-            <div className="text-[11px] font-semibold text-slate-600">(e-Farmania Lead)</div>
+            <div className="text-xs font-extrabold text-emerald-800">Fellas Indonesia</div>
+            <div className="text-[11px] font-semibold text-slate-600">(Project Lead)</div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Climate/weather ingestion, AI flood disaster prediction, food supply chain & inventory intelligence.
+              Ensure collaborative execution, stakeholder engagement, citizen alert delivery & telemedicine network.
             </p>
           </div>
 
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
-            <div className="text-xs font-extrabold text-blue-800">Fellas Indonesia</div>
-            <div className="text-[11px] font-semibold text-slate-600">(Community Lead)</div>
+            <div className="text-xs font-extrabold text-blue-800">PT. Sepuh Trismatek Nusa</div>
+            <div className="text-[11px] font-semibold text-slate-600">(Software House & Technical Implementer)</div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Alert delivery to citizens/caregivers, response coordination & telemedicine network (East Ventures-backed).
+              Platform development, technical architecture, AI integration, flood prediction, and full-stack engineering.
             </p>
           </div>
 
           <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-2">
             <div className="text-xs font-extrabold text-amber-800">Kemaih Sdn Bhd</div>
-            <div className="text-[11px] font-semibold text-slate-600">(LaPaQ & PAGi Lead)</div>
+            <div className="text-[11px] font-semibold text-slate-600">(LaPaQ & PAGi Lead - Strategic Partner)</div>
             <p className="text-xs text-slate-600 leading-relaxed">
-              Household nutrition intake monitoring, child longitudinal growth analytics (UNICEF-MRANTI Accelerator Winner).
+              Strategic planning, household nutrition intake monitoring, child longitudinal growth analytics.
             </p>
           </div>
 

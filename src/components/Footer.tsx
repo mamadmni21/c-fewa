@@ -36,16 +36,16 @@ export const Footer: React.FC<FooterProps> = ({ isSynced }) => {
         {/* Partners Row */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-[11px] text-slate-500 pt-2">
           <div>
-            <strong className="text-slate-800 block mb-1">Lead Contractor & Developer:</strong>
-            PT. Sepuh Trismatek Nusa (Fellas Indonesia's Partner / Individual Contractor)
+            <strong className="text-slate-800 block mb-1">Project Lead:</strong>
+            Fellas Indonesia
           </div>
           <div>
-            <strong className="text-slate-800 block mb-1">Community Delivery:</strong>
-            Fellas Indonesia Network
+            <strong className="text-slate-800 block mb-1">Technical Implementer:</strong>
+            PT. Sepuh Trismatek Nusa (SEPUH)
           </div>
           <div>
-            <strong className="text-slate-800 block mb-1">Nutrition Technology:</strong>
-            Kemaih Sdn Bhd (LaPaQ & PAGi)
+            <strong className="text-slate-800 block mb-1">Strategic Partner:</strong>
+            Kemaih (LaPaQ & PAGi)
           </div>
           <div>
             <strong className="text-slate-800 block mb-1">Validation & Research:</strong>

@@ -94,7 +94,7 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
                 {isRegister ? 'Create C-FEWA Account' : 'Sign In to C-FEWA'}
               </h3>
               <p className="text-xs text-slate-400">
-                PT. Sepuh Trismatek Nusa • Climate-Food Portal
+                Fellas Indonesia • Climate-Food Portal
               </p>
             </div>
           </div>

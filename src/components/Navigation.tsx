@@ -117,7 +117,7 @@ export const Navigation: React.FC<NavigationProps> = ({
       label: 'UNICEF Storyline',
       mediumLabel: 'UNICEF Storyline',
       mobileLabel: 'Storyline',
-      subtitle: 'PT. Sepuh & Partners',
+      subtitle: 'Fellas & Partners',
       icon: FileText,
     },
   ];

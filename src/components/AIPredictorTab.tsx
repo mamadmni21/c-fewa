@@ -68,7 +68,7 @@ export const AIPredictorTab: React.FC<AIPredictorTabProps> = ({ currentRole }) =
             C-FEWA Climate-Food Strategic AI Predictor
           </h2>
           <p className="text-xs text-slate-500">
-            Powered by PT. Sepuh Trismatek Nusa AI pipeline for real-time disaster simulation & stock repositioning advice.
+            Powered by Fellas Indonesia AI pipeline for real-time disaster simulation & stock repositioning advice.
           </p>
         </div>
       </div>
@@ -192,7 +192,7 @@ export const AIPredictorTab: React.FC<AIPredictorTabProps> = ({ currentRole }) =
                 <span>Strategic Advisory Report</span>
               </h3>
               <span className="text-[11px] text-slate-500 font-medium">
-                PT. Sepuh Trismatek Nusa AI Engine
+                Fellas Indonesia AI Engine
               </span>
             </div>
 
@@ -215,7 +215,7 @@ export const AIPredictorTab: React.FC<AIPredictorTabProps> = ({ currentRole }) =
               <div className="text-center py-16 space-y-3 text-indigo-600">
                 <Loader2 className="w-10 h-10 animate-spin mx-auto text-indigo-600" />
                 <p className="text-xs font-semibold text-slate-600">
-                  Synthesizing meteorological signals with e-Farmania stock maps & PAGi child nutrition algorithms...
+                  Synthesizing meteorological signals with stock maps & child nutrition algorithms...
                 </p>
               </div>
             )}
@@ -228,7 +228,7 @@ export const AIPredictorTab: React.FC<AIPredictorTabProps> = ({ currentRole }) =
           </div>
 
           <div className="border-t border-slate-200 pt-3 mt-6 text-[11px] text-slate-500 flex items-center justify-between">
-            <span>© PT. Sepuh Trismatek Nusa C-FEWA Engine</span>
+            <span>© C-FEWA Engine</span>
             <span>gemini-2.5-flash</span>
           </div>
         </div>

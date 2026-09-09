@@ -49,7 +49,7 @@ export default function App() {
 
   // Enforce document title
   useEffect(() => {
-    document.title = "C-FEWA by SEPUH";
+    document.title = "C-FEWA";
   }, []);
 
   // Firestore Realtime Collections State
@@ -61,7 +61,7 @@ export default function App() {
 
   // Initialize and set document title
   useEffect(() => {
-    document.title = "C-FEWA App by Sepuh";
+    document.title = "C-FEWA";
   }, []);
 
   // Initialize and subscribe to Firestore Realtime Updates

@@ -51,7 +51,7 @@ export const LandingTab: React.FC<LandingTabProps> = ({
         <div className="relative z-10 max-w-4xl space-y-6">
           <div className="inline-flex items-center space-x-2.5 px-3.5 py-1.5 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-bold uppercase tracking-wider">
             <Sparkles className="w-4 h-4 text-indigo-400" />
-            <span>UNICEF Venture Fund Applicant • PT. Sepuh Trismatek Nusa (Fellas Indonesia Partner Contractor)</span>
+            <span>UNICEF Venture Fund Applicant • Fellas Indonesia</span>
           </div>
 
           <h1 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
@@ -488,7 +488,7 @@ export const LandingTab: React.FC<LandingTabProps> = ({
               <span>Consortium Synergy</span>
             </div>
             <h2 className="text-2xl font-bold text-white mt-1">
-              PT. Sepuh Trismatek Nusa & Partner Consortium
+              Fellas Indonesia & Partner Consortium
             </h2>
             <p className="text-xs text-slate-400 mt-1">
               Combining world-class AgTech, community health networks, and child nutrition expertise.
@@ -506,18 +506,18 @@ export const LandingTab: React.FC<LandingTabProps> = ({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-2">
-            <div className="text-xs font-extrabold text-emerald-400 uppercase tracking-wider">PT. Sepuh Trismatek Nusa</div>
-            <div className="text-[11px] font-bold text-slate-300">Lead Tech Applicant</div>
+            <div className="text-xs font-extrabold text-blue-400 uppercase tracking-wider">Fellas Indonesia</div>
+            <div className="text-[11px] font-bold text-slate-300">Project Lead</div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Builds e-Farmania weather ingestion, AI disaster prediction models, and inventory stock repositioning algorithms.
+              Ensure collaborative execution, stakeholder engagement, citizen alert delivery & response coordination.
             </p>
           </div>
 
           <div className="bg-slate-950 p-4 rounded-2xl border border-slate-800 space-y-2">
-            <div className="text-xs font-extrabold text-blue-400 uppercase tracking-wider">Fellas Indonesia</div>
-            <div className="text-[11px] font-bold text-slate-300">Community Outreach</div>
+            <div className="text-xs font-extrabold text-emerald-400 uppercase tracking-wider">PT. Sepuh Trismatek Nusa</div>
+            <div className="text-[11px] font-bold text-slate-300">Technical Implementer</div>
             <p className="text-xs text-slate-400 leading-relaxed">
-              Handles grassroots alert delivery, telemedicine support, and local caregiver response coordination.
+              Platform development, technical architecture, AI integration, flood prediction, and full-stack engineering.
             </p>
           </div>
 

@@ -15,7 +15,7 @@ async function startServer() {
 
   // Healthcheck endpoint
   app.get('/api/health', (req, res) => {
-    res.json({ status: 'ok', app: 'C-FEWA', owner: 'PT. Sepuh Trismatek Nusa' });
+    res.json({ status: 'ok', app: 'C-FEWA', owner: 'Fellas Indonesia' });
   });
 
   // AI Climate-Food Disaster Analysis API endpoint
@@ -32,7 +32,7 @@ async function startServer() {
 
       const ai = new GoogleGenAI({ apiKey });
       const prompt = `
-You are the C-FEWA (Climate-Food Early Warning & Action) AI Advisory Engine developed by PT. Sepuh Trismatek Nusa in partnership with UNICEF Venture Fund, e-Farmania, LaPaQ, PAGi, and Fellas Indonesia.
+You are the C-FEWA (Climate-Food Early Warning & Action) AI Advisory Engine developed by Fellas Indonesia in partnership with UNICEF Venture Fund, PT. Sepuh Trismatek Nusa (SEPUH), Kemaih (LaPaQ/PAGi), and CISDI.
 
 Analyze the following operational scenario and provide an urgent, highly actionable, role-differentiated advisory to protect food supply chain resilience and child nutrition:
 
@@ -77,7 +77,7 @@ Provide a structured, clear response formatted with concise bullet points under 
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`C-FEWA PT. Sepuh Trismatek Nusa Server running on http://0.0.0.0:${PORT}`);
+    console.log(`C-FEWA Fellas Indonesia Server running on http://0.0.0.0:${PORT}`);
   });
 }
 

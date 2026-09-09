@@ -52,7 +52,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-md bg-indigo-500/20 border border-indigo-500/30 text-indigo-300 text-xs font-bold uppercase tracking-wider">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>PT. Sepuh Trismatek Nusa • UNICEF Venture Fund Pilot</span>
+            <span>Fellas Indonesia • UNICEF Venture Fund Pilot</span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight leading-tight">
@@ -242,7 +242,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({
           {[
             { id: 'farmer', label: '🌾 Farmers', partner: 'e-Farmania' },
             { id: 'trader', label: '🚚 Traders & Suppliers', partner: 'e-Farmania' },
-            { id: 'government', label: '🏛️ Government Agencies', partner: 'PT. Sepuh' },
+            { id: 'government', label: '🏛️ Government Agencies', partner: 'Fellas Indonesia' },
             { id: 'citizen', label: '🏡 Citizens & Caregivers', partner: 'Fellas Indonesia' },
             { id: 'kitchen_operator', label: '🏫 School Kitchen Operators', partner: 'PAGi / MBG' },
           ].map((r) => (

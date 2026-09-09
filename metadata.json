@@ -1,6 +1,6 @@
 {
-  "name": "C-FEWA by SEPUH",
-  "description": "AI-powered anticipatory climate-disaster platform protecting children's nutrition through food supply chain resilience. By PT. Sepuh Trismatek Nusa.",
+  "name": "C-FEWA",
+  "description": "AI-powered anticipatory climate-disaster platform protecting children's nutrition through food supply chain resilience. By Fellas Indonesia.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

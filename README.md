@@ -175,6 +175,22 @@ This consortium model ensures a powerful combination of humanitarian expertise, 
 
 ---
 
+## 🚀 Deploying to Vercel
+
+C-FEWA is pre-configured for 1-click deployment on **Vercel** with full support for client-side routing and Vercel Serverless Functions (`/api/*`):
+
+### Quick Steps:
+1. **Import Git Repository**: In your Vercel Dashboard, click **Add New... > Project** and import the `c-fewa` repository.
+2. **Framework Preset**: Vercel will automatically detect **Vite**.
+3. **Environment Variables**: Under **Project Settings > Environment Variables**, configure:
+   - `GEMINI_API_KEY`: *(Required for AI Advisory Simulator)* Your Google Gemini API Key.
+   - `VITE_FIREBASE_API_KEY`: *(Optional)* Your Firebase API Key if using custom project.
+   - `VITE_FIREBASE_PROJECT_ID`: *(Optional)* `c-fewa`
+   - `VITE_FIREBASE_DATABASE_ID`: *(Optional)* `ai-studio-cfewaclimatefood-e844cbde-3648-4b65-b2f1-4173749f5e2c`
+4. **Deploy**: Click **Deploy**. Vercel will build the frontend assets via Vite and serve the `/api/health` and `/api/ai-advisory` serverless functions automatically.
+
+---
+
 ## 🧪 Quality Assurance & Testing
 
 - **Static Type Checking**: TypeScript strict mode validation (`npm run lint`).

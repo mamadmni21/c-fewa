@@ -88,7 +88,7 @@ const INITIAL_ALERTS: DisasterAlert[] = [
     },
     status: 'active',
     createdAt: new Date(Date.now() - 3600000 * 2).toISOString(),
-    createdBy: 'PT. Sepuh Trismatek Nusa AI Engine'
+    createdBy: 'Fellas Indonesia AI Engine'
   },
   {
     id: 'alert-02',
@@ -109,7 +109,7 @@ const INITIAL_ALERTS: DisasterAlert[] = [
     },
     status: 'active',
     createdAt: new Date(Date.now() - 3600000 * 8).toISOString(),
-    createdBy: 'PT. Sepuh Trismatek Nusa AI Engine'
+    createdBy: 'Fellas Indonesia AI Engine'
   }
 ];
 
