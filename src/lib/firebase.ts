@@ -13,15 +13,26 @@ import { getFirestore } from 'firebase/firestore';
 // Fallback key assembled dynamically to prevent static scanner false positives on GitHub
 const defaultApiKey = ['AIzaSy', 'AhKB16PZQu4', 'RogEP1GBR0_', '4OoLivpTZ1I'].join('');
 
-const projectId = import.meta.env.VITE_FIREBASE_PROJECT_ID || "c-fewa";
+// Clean project ID and authDomain so that any private/sensitive variable in Vercel
+// (even if locked, masked, or containing accidental suffixes or storage domains) resolves perfectly.
+const cleanProject = (raw?: string): string => {
+  if (!raw) return "c-fewa";
+  const p = raw.trim().toLowerCase();
+  if (p.includes("c-fewa")) return "c-fewa";
+  return p.split(".")[0] || "c-fewa";
+};
 
-// Sanitize authDomain: Ensure firebasestorage.app (Cloud Storage) is never used as Auth handler domain
-const rawAuthDomain = import.meta.env.VITE_FIREBASE_AUTH_DOMAIN;
-const sanitizedAuthDomain = (
-  !rawAuthDomain || 
-  rawAuthDomain.includes('firebasestorage.app') || 
-  !rawAuthDomain.includes('.')
-) ? `${projectId}.firebaseapp.com` : rawAuthDomain;
+const projectId = cleanProject(import.meta.env.VITE_FIREBASE_PROJECT_ID);
+
+const getAuthDomain = (): string => {
+  const raw = (import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || '').trim().toLowerCase();
+  if (!raw || raw.includes("c-fewa") || raw.includes("firebasestorage")) {
+    return "c-fewa.firebaseapp.com";
+  }
+  return `${projectId}.firebaseapp.com`;
+};
+
+const sanitizedAuthDomain = getAuthDomain();
 
 // Read config from environment or default fallbacks safely
 const firebaseConfig = {
