@@ -18,6 +18,20 @@ Developed by **Fellas Indonesia**, C-FEWA bridges the critical gap between raw m
 
 ---
 
+## 🤝 The C-FEWA Consortium
+
+C-FEWA is built and maintained through a collaborative consortium of three key partners:
+
+| Organization | Role | Contribution |
+| :--- | :--- | :--- |
+| **Fellas Indonesia** | 🏢 **Project Lead** | Ensure collaborative execution, Stakeholders engagement |
+| **PT. Sepuh Trismatek Nusa (SEPUH)** | 💻 **Software House & Technical Implementer** | Platform development, technical architecture, AI integration, and full-stack engineering |
+| **Kemaih** | 🌏 **Owner of Lapaq & Malaysian Partner** | Strategic Planning |
+
+This consortium model ensures a powerful combination of humanitarian expertise, technical excellence, and regional market access to deliver impactful climate resilience solutions across Indonesia and Southeast Asia.
+
+
+
 ## 🎯 The Humanitarian Problem & UNICEF Alignment
 
 | Global Challenge | C-FEWA Solution |
@@ -173,13 +187,13 @@ Developed by **Fellas Indonesia**, C-FEWA bridges the critical gap between raw m
 
 This project is released under the **[MIT License](LICENSE)**.
 
-Fellas Indonesia is fully committed to releasing and maintaining C-FEWA as an Open Source Digital Public Good (DPG) under OSI-approved permissive licensing in accordance with the UNICEF Innovation Fund guidelines.
+C-FEWA is fully committed to releasing and maintaining as an Open Source Digital Public Good (DPG) under OSI-approved permissive licensing in accordance with the UNICEF Innovation Fund guidelines.
 ---
 
 ## 👥 Organization & Contact
 
 **Fellas Indonesia**  
-- **Role**: System POC & Collaborate with the main Developer PT Sepuh Trismatek Nusa
+- **Role**: Project POC
 - **Focus**: Climate Technology, Humanitarian Data Intelligence & Public Health Engineering  
 - **Lead Contact**: Rini Mayasari (`rini.mayasari2202@gmail.com`)  
 - **Repository**: [https://github.com/mamadmni21/c-fewa](https://github.com/mamadmni21/c-fewa)  
