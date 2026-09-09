@@ -40,7 +40,17 @@ export const AuthModal: React.FC<AuthModalProps> = ({ isOpen, onClose, onAuthSuc
       onClose();
     } catch (err: any) {
       console.error('Google Sign-In Error:', err);
-      setError(err.message || 'Google Sign-In failed. Please try again.');
+      if (err.code === 'auth/unauthorized-domain') {
+        setError(
+          `Domain "${window.location.hostname}" is not authorized in Firebase. In Firebase Console > Authentication > Settings > Authorized domains, add "${window.location.hostname}".`
+        );
+      } else if (err.code === 'auth/popup-closed-by-user') {
+        setError('Sign-in popup was closed before completing. Please try again.');
+      } else if (err.code === 'auth/network-request-failed') {
+        setError('Network error during Google sign-in. Please verify your connection or check Firebase Auth Domain.');
+      } else {
+        setError(err.message || 'Google Sign-In failed. Please try again.');
+      }
     } finally {
       setLoading(false);
     }
