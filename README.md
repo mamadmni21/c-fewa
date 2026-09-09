@@ -184,11 +184,11 @@ C-FEWA is pre-configured for 1-click deployment on **Vercel** with full support 
 2. **Framework Preset**: Vercel will automatically detect **Vite**.
 3. **Environment Variables**: Under **Project Settings > Environment Variables**, configure:
    - `GEMINI_API_KEY`: *(Required for AI Advisory Simulator)* Your Google Gemini API Key.
-   - `VITE_FIREBASE_API_KEY`: `AIzaSyAhKB16PZQu4RogEP1GBR0_4OoLivpTZ1I`
+   - `VITE_FIREBASE_API_KEY`: `...`
    - `VITE_FIREBASE_PROJECT_ID`: `c-fewa`
-   - `VITE_FIREBASE_AUTH_DOMAIN`: `c-fewa.firebaseapp.com` *(⚠️ Important: Must be `.firebaseapp.com`, do NOT use `.firebasestorage.app` which is for file storage)*
-   - `VITE_FIREBASE_DATABASE_ID`: `ai-studio-cfewaclimatefood-e844cbde-3648-4b65-b2f1-4173749f5e2c`
-   - `VITE_FIREBASE_STORAGE_BUCKET`: `c-fewa.firebasestorage.app`
+   - `VITE_FIREBASE_AUTH_DOMAIN`: `...'
+   - `VITE_FIREBASE_DATABASE_ID`: `...`
+   - `VITE_FIREBASE_STORAGE_BUCKET`: `...`
 4. **Authorize Vercel Domain in Firebase**:
    - Go to [Firebase Console](https://console.firebase.google.com/) > Select project `c-fewa`
    - Navigate to **Authentication** > **Settings** tab > **Authorized domains**
