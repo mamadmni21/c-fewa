@@ -12,9 +12,9 @@
 
 ## 📌 Executive Summary
 
-**C-FEWA (Child-Focused Climate Food Early Warning & Anticipatory Action)** is an open-source, AI-driven, multi-hazard early warning and decision-support platform designed specifically to safeguard **children’s food security and nutritional health** from climate shocks.
+**C-FEWA (Child-Focused Climate Food Early Warning & Anticipatory Action)** is an open-source, AI-driven, multi-hazard early warning and decision-support platform designed specifically to safeguard **children's food security and nutritional health** from climate shocks.
 
-Developed by **PT. Sepuh Trismatek Nusa (SEPUH)** (Fellas Indonesia's partner acting as individual contractor that created this app), C-FEWA bridges the critical gap between raw meteorological climate forecasts and actionable, child-centric humanitarian interventions. By integrating climate anomaly tracking, supply chain logistics, localized child vulnerability metrics (SAM/MAM risk), and automated anticipatory action triggers, C-FEWA empowers disaster risk management agencies, UNICEF field offices, and local governments to deploy cash transfers, emergency food stocks, and micronutrient supplements **weeks before acute food shortages occur**.
+Developed by **Fellas Indonesia**, C-FEWA bridges the critical gap between raw meteorological climate forecasts and actionable, child-centric humanitarian interventions. By integrating climate anomaly tracking, supply chain logistics, localized child vulnerability metrics (SAM/MAM risk), and automated anticipatory action triggers, C-FEWA empowers disaster risk management agencies, UNICEF field offices, and local governments to deploy cash transfers, emergency food stocks, and micronutrient supplements **weeks before acute food shortages occur**.
 
 ---
 
@@ -125,9 +125,8 @@ Developed by **PT. Sepuh Trismatek Nusa (SEPUH)** (Fellas Indonesia's partner ac
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-org/c-fewa-sepuh.git
-   cd c-fewa-sepuh
-   ```
+   git clone https://github.com/your-org/c-fewa.git
+   cd c-fewa
 
 2. **Install Dependencies**:
    ```bash
@@ -174,18 +173,17 @@ Developed by **PT. Sepuh Trismatek Nusa (SEPUH)** (Fellas Indonesia's partner ac
 
 This project is released under the **[MIT License](LICENSE)**.
 
-PT. Sepuh Trismatek Nusa is fully committed to releasing and maintaining C-FEWA as an **Open Source Digital Public Good (DPG)** under OSI-approved permissive licensing in accordance with the UNICEF Innovation Fund guidelines.
-
+Fellas Indonesia is fully committed to releasing and maintaining C-FEWA as an Open Source Digital Public Good (DPG) under OSI-approved permissive licensing in accordance with the UNICEF Innovation Fund guidelines.
 ---
 
 ## 👥 Organization & Contact
 
-**PT. Sepuh Trismatek Nusa (SEPUH)**  
-- **Role**: Fellas Indonesia's partner as individual contractor that created this app  
+**Fellas Indonesia**  
+- **Role**: System POC & Collaborate with the main Developer PT Sepuh Trismatek Nusa
 - **Focus**: Climate Technology, Humanitarian Data Intelligence & Public Health Engineering  
-- **Lead Contact**: Mamad Ismanto (`mamad.ismanto@gmail.com`)  
-- **Repository**: [https://github.com/mamadismanto/c-fewa-sepuh](https://github.com/mamadismanto/c-fewa-sepuh)  
+- **Lead Contact**: Rini Mayasari (`rinimayasari@fellas.id`)  
+- **Repository**: [https://github.com/mamadmni21/c-fewa](https://github.com/mamadmni21/c-fewa)  
 
 ---
 
-*C-FEWA by SEPUH — Empowering Communities, Protecting Children, Building Climate Resilience.* 🌟
+*C-FEWA by Fellas X SEPUH — Empowering Communities, Protecting Children, Building Climate Resilience.* 🌟
